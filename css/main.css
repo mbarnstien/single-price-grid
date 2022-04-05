@@ -1,0 +1,76 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    background-color: #e5eff5;
+    color: #ffffff;
+}
+
+ ul{
+     list-style-type: none;
+     padding: 0;
+ }
+
+input[type=button] {
+    background-color: #c0df34;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ 
+h1 {
+    color: #2ab2af;
+}
+
+h3 {
+    color: #c0df34;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.section-1, .section-2, .section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.section-1 {
+    background-color: #ffffff;
+}
+
+.section-2 {
+    background-color: #2ab2af;
+}
+
+.section-3 {
+    background-color: #30cfcc;
+}
+
+.section-1 p {
+    color: #98a6bd;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: #2ab2af; 
+}
